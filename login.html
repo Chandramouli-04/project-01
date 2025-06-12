@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel List</title>
+</head>
+<body>
+    <center>
+        <h1>Login Page</h1>
+    </center>
+   <form action="./index.html">
+            <table border="1">
+                <tr>
+                        <td><label for="name">Name &nbsp;</label></td>
+                        <td><input type="text" id="name" name="name" pattern="[a-zA-Z0-9\s]+{3,10}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Enter Password</label></td>
+                    <td><input type="password" name="" id="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,16}" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><button>Submit</button></center></td>
+                </tr>
+
+            </table>
+   </form>
+</body>
+</html>
